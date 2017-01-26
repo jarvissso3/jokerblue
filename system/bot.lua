@@ -236,13 +236,13 @@ function create_config( )
     support_gp = {},--Support id
     moderation = {data = 'data/adv.json'},
     about_text = [[*IN THE NAME OF ALLAH*
-This is an original bot and based on (AdvanSource).
+This is an original bot and based on (joker).
 Copyright all right reserved and you must respect all laws.
 
-Source: https://github.com/janlou/AdvanSource
-Channel: @AdvanTeam
-Messenger: @Advanbot
-Creator: @janlou
+Source: https://github.com/jarvissso3/jokerblue
+Channel: @jarvis_joker
+Messenger: @joker_hr
+Creator: @joker_hr
 Site: http://StoreVps.net
 Version: [4.1]
 ]],
