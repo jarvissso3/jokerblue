@@ -468,7 +468,7 @@ if is_chat_msg(msg) or is_super_group(msg) then
         end
 			--Cmd Lock.
 end
--- End 'RondoMsgChecks' text checks by @Rondoozle
+-- End 'RondoMsgChecks' text checks by @joker_hr
    end
 	return msg
 end
@@ -477,4 +477,4 @@ return {
 	patterns = {},
 	pre_process = pre_process,
 }
---End security.lua By @Rondoozle
+--End security.lua By @joker_hr
