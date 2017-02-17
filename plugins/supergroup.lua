@@ -18,34 +18,34 @@ local function check_member_super(cb_extra, success, result)
         set_owner = member_id ,
         settings = {
           set_name = string.gsub(msg.to.title, '_', ' '),
-		  lock_arabic = 'ησ',
-		  lock_link = "ησ",
+		  lock_arabic = 'no',
+		  lock_link = "no",
           flood = 'yes',
-		  lock_spam = 'уєѕ',
-		  lock_media = 'ησ',
-		  lock_fwd = 'ησ',
-		  lock_reply = 'ησ',
-		  lock_share = 'ησ',
+		  lock_spam = 'yes',
+		  lock_media = 'no',
+		  lock_fwd = 'no',
+		  lock_reply = 'no',
+		  lock_share = 'no',
 		  lock_tag = 'no',
 		  lock_bots = 'no',
 		  lock_number = 'no',
-		  lock_poker = 'ησ',
-		  lock_audio = 'ησ',
-		  lock_photo = 'ησ',
-		  lock_video = 'ησ',
-		  lock_documents = 'ησ',
-		  lock_text = 'ησ',
-		  lock_all = 'ησ',
-		  lock_gifs = 'ησ',
-		  lock_inline = 'ησ',
-		  lock_cmd = 'ησ',
-		  lock_sticker = 'ησ',
-		  member = 'ησ',
-		  public = 'ησ',
-		  lock_rtl = 'ησ',
-		  lock_tgservice = 'уєѕ',
-		  lock_contacts = 'ησ',
-		  strict = 'ησ'
+		  lock_poker = 'no',
+		  lock_audio = 'no',
+		  lock_photo = 'no',
+		  lock_video = 'no',
+		  lock_documents = 'no',
+		  lock_text = 'no',
+		  lock_all = 'no',
+		  lock_gifs = 'no',
+		  lock_inline = 'no',
+		  lock_cmd = 'no',
+		  lock_sticker = 'no',
+		  member = 'no',
+		  public = 'no',
+		  lock_rtl = 'no',
+		  lock_tgservice = 'yes',
+		  lock_contacts = 'no',
+		  strict = 'no'
         }
       }
       save_data(_config.moderation.data, data)
@@ -1912,4 +1912,4 @@ return {
   pre_process = pre_process
 }
 --End supergrpup.lua
---By @Rondoozle
+--By @joker_hr
