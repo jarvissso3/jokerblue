@@ -1,4 +1,4 @@
---Start tools.lua by @janlou
+--Start tools.lua by @joker_hr
 --[[Plugins:
 savefile
 saveplug
@@ -1045,7 +1045,6 @@ function run(msg, matches, callback, extra)
     	    about_text = [[*IN THE NAME OF ALLAH*
 This is an original bot and based on (AdvanSource).
 Copyright all right reserved and you must respect all laws.
-
 Source: https://github.com/janlou/AdvanSource
 Channel: @AdvanTeam
 Messenger: @Advanbot
